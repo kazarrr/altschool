@@ -294,8 +294,8 @@ a {
 
 .all-plans {
   flex: 0 0 33.3%;
-  display: block;
-  margin-left: -100px;
+  
+  margin-left: -150px;
 }
 .planss {
   display: inline-flex;
@@ -311,9 +311,26 @@ a {
   gap: 24px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
   margin-top: 68px;
-  margin-left: 535px;
+  margin-left: 575px;
 
   position: relative;
+}
+.plans3{
+  display: inline-flex;
+  overflow: hidden;
+  padding: 24px 98px 45px 87px;
+  border-radius: 12px;
+  padding-left: -10px;
+  border: 0.4px solid var(--primary-400, #005ae2);
+  background: var(--neutral-white, #fff);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+  margin-left: -60px;
+  margin-top: 154px;
+  z-index: -1;
+  position: absolute;
 }
 .plans2 {
   display: inline-flex;
@@ -368,7 +385,7 @@ a {
 .thirdbutton {
   display: flex;
   margin-top: 68px;
-  margin-left: -100px;
+  margin-left: -90px;
   gap: 12px;
 }
 .fourth-section {
