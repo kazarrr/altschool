@@ -7,79 +7,6 @@ body {
   min-width: 100vw;
   flex-direction: column;
   overflow-x: hidden;
-
-  /*.logo {
-    width: 155px;
-    height: 40px;
-  }
-  
-  .nav-links {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #0065fe;
-  }
-  
-  .drop {
-    position: relative;
-  }
-  
-  .dropdown {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .Main-CTA {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .button1,
-  .button2 {
-    font-size: 16px;
-    border: none;
-    background: none;
-  }
-  
-  .button1 {
-    color: #0065fe;
-  }
-  
-  .button2 {
-    width: 142px;
-    height: 44px;
-    background: #0065fe;
-    color: white;
-    border-radius: 100px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-    
-    .Main-CTA {
-      gap: 10px;
-    }
-    
-    .button1,
-    .button2 {
-      font-size: 14px;
-    }
-  }
-
-*/
 }
 .logo {
   width: 155px;
@@ -123,27 +50,21 @@ a {
 
   align-items: center;
   gap: 40px;
-  
-
-
-
 }
 
 .drop {
-  
   position: relative;
 }
 
 .dropdown {
   position: absolute;
   margin-top: 1px;
- 
-    top: 50%;
-    transform: translateY(-50%);
+
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .button1 {
-  margin-left: 10px;
   font-size: 16px;
   color: #0065fe;
   border: none;
@@ -151,37 +72,32 @@ a {
 }
 
 .button2 {
-  margin-left: 12px;
   font-size: 16px;
-  width: 142px;
+  width: 100%;
   height: 44px;
   background: #0065fe;
   border: none;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 24px;
   color: white;
   border-radius: 100px;
-  .Main-CTA{
-    margin-left: -50px;
-  }
+}
+.Main-CTA {
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
   }
-  
+
   .Main-CTA {
     gap: 10px;
   }
-  
+
   .button1,
   .button2 {
     font-size: 14px;
   }
-
 }
 .head-text {
   margin: auto;
