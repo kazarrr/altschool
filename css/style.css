@@ -7,10 +7,89 @@ body {
   min-width: 100vw;
   flex-direction: column;
   overflow-x: hidden;
+
+  /*.logo {
+    width: 155px;
+    height: 40px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #0065fe;
+  }
+  
+  .drop {
+    position: relative;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .Main-CTA {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .button1,
+  .button2 {
+    font-size: 16px;
+    border: none;
+    background: none;
+  }
+  
+  .button1 {
+    color: #0065fe;
+  }
+  
+  .button2 {
+    width: 142px;
+    height: 44px;
+    background: #0065fe;
+    color: white;
+    border-radius: 100px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    
+    .Main-CTA {
+      gap: 10px;
+    }
+    
+    .button1,
+    .button2 {
+      font-size: 14px;
+    }
+  }
+
+*/
 }
 .logo {
   width: 155px;
   height: 40px;
+}
+.Main-CTA {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 140px;
 }
 
 nav {
@@ -19,6 +98,8 @@ nav {
   align-content: center;
   padding-left: 145px;
   margin-top: 12px;
+  gap: 140px;
+  justify-content: space-around;
 }
 
 .gradient {
@@ -39,25 +120,30 @@ a {
 .nav-links {
   list-style-type: none;
   display: flex;
-  align-content: center;
+
   align-items: center;
   gap: 40px;
-  margin-left: 140px;
+  
+
+
+
 }
 
 .drop {
-  display: flex;
-  align-items: center;
+  
   position: relative;
 }
 
 .dropdown {
   position: absolute;
   margin-top: 1px;
+ 
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .button1 {
-  margin-left: 140px;
+  margin-left: 10px;
   font-size: 16px;
   color: #0065fe;
   border: none;
@@ -77,29 +163,25 @@ a {
   padding-bottom: 12px;
   color: white;
   border-radius: 100px;
+  .Main-CTA{
+    margin-left: -50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    padding-left: 20px;
-    margin-top: 0;
-  }
-
   .nav-links {
-    margin-left: 0;
-    gap: 20px;
+    display: none;
   }
-
-  .button1 {
-    margin-left: 0;
+  
+  .Main-CTA {
+    gap: 10px;
   }
+  
+  .button1,
   .button2 {
-    margin-left: 0;
-    margin-right: 144px;
-    margin-top: 10px;
-    width: 100%;
+    font-size: 14px;
+  }
 
-}
 }
 .head-text {
   margin: auto;
