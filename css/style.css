@@ -20,12 +20,14 @@ nav {
   padding-left: 145px;
   margin-top: 12px;
 }
+
 .gradient {
+  width: 100%;
+  height: auto;
   position: absolute;
-  margin-top: -200px;
-  padding: 0;
-  width: 100vw;
-  margin-left: -300px;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 a {
@@ -77,6 +79,28 @@ a {
   border-radius: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    padding-left: 20px;
+    margin-top: 0;
+  }
+
+  .nav-links {
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .button1 {
+    margin-left: 0;
+  }
+  .button2 {
+    margin-left: 0;
+    margin-right: 144px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+}
 .head-text {
   margin: auto;
   font-size: 48px;
