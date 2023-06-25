@@ -24,9 +24,8 @@ nav {
   position: absolute;
   margin-top: -200px;
   padding: 0;
- width: 100vw;
- margin-left: -300px;
- 
+  width: 100vw;
+  margin-left: -300px;
 }
 
 a {
@@ -150,8 +149,7 @@ a {
   border: 0.5px solid #005ae2;
   margin-left: 150px;
   background: rgb(242, 242, 242);
-  
- 
+
   padding: 30px;
   border-radius: 24px;
   margin-top: 80px;
@@ -274,7 +272,7 @@ a {
   align-content: baseline;
   gap: 8px;
 }
-.third-section{
+.third-section {
   margin-left: -350px;
 }
 .plans {
@@ -296,7 +294,7 @@ a {
 
 .all-plans {
   flex: 0 0 33.3%;
-  
+
   margin-left: -150px;
 }
 .planss {
@@ -317,7 +315,7 @@ a {
 
   position: relative;
 }
-.plans3{
+.plans3 {
   display: inline-flex;
   overflow: hidden;
   padding: 24px 98px 45px 87px;
@@ -593,7 +591,17 @@ a {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .quick-links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .single {
   padding-left: 24px;
   padding-right: 24px;
